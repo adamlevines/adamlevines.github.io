@@ -30,7 +30,13 @@ permalink: /People/
                         <img src="/_pages/images/{{ member.image }}" alt="">
                     </div>
                     <div class="contentBx">
-                        <a href="{{ member.website | default: '#' }}" target="_blank"><h4>{{ member.name }}</h4></a>
+                        {% if member.website %}
+                            <a href="{{ member.website }}" target="_blank"><h4>{{ member.name }}</h4></a>
+                        {% else %}
+                            {% if member.github %}
+                                <a href="{{ member.github }}" target="_blank"><h4>{{ member.name }}</h4></a>
+                            {% endif %}
+                        {% endif %}
                         <h5>{{ member.position }}</h5>
                     </div>
                     <div class="sci">
