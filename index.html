@@ -6,52 +6,72 @@ header:
   overlay_image: assets/images/oaklandtower.jpg
 
 ---
-<html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
 
-<style>
-  
-  
+	<style>
 
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
+		body {
+  margin: 50px;
+  background-color: #F3F3F3;
+}
+
+		div#slider {
+  overflow: hidden;
   margin: auto;
+  width: 50%;
+  max-width: 700px;
+  max-height: 400px;
 }
-
-/* Caption text  if there is any*/
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
+div#slider div {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  font-size: 0;
+  animation: 20s slider infinite;
 }
-
-/* The dots/bullets/indicators */
-
-.active {
-  background-color: #717171;
+div#slider div img {
+  width: 20%;
+  float: left;
 }
-
-/* Fading animation */
-.fade {
-  animation-name: fade;
-  animation-duration: 2s;
+@keyframes slider {
+  0% {
+    left: 0%;
+  }
+  20% {
+    left: 0%;
+  }
+  25% {
+    left: -100%;
+  }
+  45% {
+    left: -100%;
+  }
+  50% {
+    left: -200%;
+  }
+  70% {
+    left: -200%;
+  }
+  75% {
+    left: -300%;
+  }
+  95% {
+    left: -300%;
+  }
 }
-
-@keyframes fade {
-  from {opacity: .5} 
-  to {opacity: 1}
-}
-</style>
-
+		
+	</style>
 </head>
+
 <body>
-    <section class="page__content" itemprop="text">
+ <section class="page__content" itemprop="text">
         <h2 id="about-us">About Us<a class="header-link" href="#about-us" title="Permalink"><span class="sr-only">Permalink</span><i class="fas fa-link"></i></a></h2>
         <p>We are a group of researchers based at <a href="https://oakland.edu/" target="_blank">Oakland University</a> studying Natural Language Processing (NLP). We are committed to:
             <ul>
@@ -73,57 +93,16 @@ header:
     {% endfor %}
     </ul>
 
-    
-  <h2 id="news">Gallery<a class="header-link" href="#gallery" title="Permalink"><span class="sr-only">Permalink</span><i class="fas fa-link"></i></a></h2>
-    <div class="mySlides fade" style = "text-align: center;">
-      
-  <img src="assets/images/labPic.jpeg" alt="oaklandtower", height = "200" width = "510;">
+ <h2 id="news">Gallery<a class="header-link" href="#gallery" title="Permalink"><span class="sr-only">Permalink</span><i class="fas fa-link"></i></a></h2>
 
-</div>
 
-<div class="mySlides fade" style = "text-align: center;">
- 
-  <img src="assets/images/labPic2.jpg" alt="oaklandtower", height = "200" width = "900;">
-
-</div>
-
-</div>
-<br>
-
-<div style="text-align:center">
-  <span class="dot"></span> 
-  <span class="dot"></span> 
-</div>
-        
-      </section>
-  <script>
-let slideIndex = 0;
-showSlides();
-
-function showSlides() {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 4500); // Change image every 5 seconds
-}
-</script>
-     
+    <div id="slider">
+        <div>
+            <img src="assets/images/labPic.jpeg" alt="">
+        </div>
+        <div>
+            <img src="assets/images/labPic2.jpg" alt="">
+		</div>
+    </div>
 </body>
-
 </html>
-
-
-
-  <!--<img src="assets/images/outower.png" alt="oaklandtower", height = "300" width = "1000">
-<br>
--->
