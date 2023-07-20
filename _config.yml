@@ -94,7 +94,7 @@ social:
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
 
-# Analytics
+# Analyticss
 analytics:
   provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
