@@ -12,7 +12,7 @@ sort-order: 0
 
 {% for y in page.years %}
   <h2 class="year">{{y}}</h2>
-  {% site.bibliography -f papers -q @*[year={{y}}]* %}
+  {% bibliography -f papers -q @*[year={{y}}]* %}
 {% endfor %}
 
 </div>
