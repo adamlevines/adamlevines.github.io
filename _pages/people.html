@@ -22,7 +22,8 @@ permalink: /People/
         <h1>Meet The Team</h1>
     </div>
     <div class="container">
-        {% for member in page.lab_members %}
+        {% assign lab_members = site.data.lab_members %}
+        {% for member in lab_members %}
             <div class="card">
                 <div class="content">
                     <div class="imgBx">
@@ -45,7 +46,18 @@ permalink: /People/
             </div>
         {% endfor %}
     </div>
+
+    <!-- Add the following JavaScript code to fetch the JSON data -->
+    <script>
+        fetch('/path/to/lab_members.json')
+            .then(response => response.json())
+            .then(data => {
+                // Assign the JSON data to a Liquid variable
+                window.lab_members = data;
+            });
+    </script>
 </body>
+
 </html>
 
 
