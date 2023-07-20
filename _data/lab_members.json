@@ -1,0 +1,84 @@
+[
+  {
+    "name": "Steven Wilson",
+    "position": "Assistant Professor",
+    "image": "steve.jpg",
+    "website": "https://steverw.com",
+    "email": "stevenwilson@oakland.edu",
+    "github": "https://github.com/steve-wilson",
+    "twitter": "https://twitter.com/SteveWilsonNLP"
+  },
+  {
+    "name": "Achyut Ganti",
+    "position": "PhD Student",
+    "image": "achyut.png",
+    "website": "https://achyutganti.com",
+    "email": "ganti@oakland.edu",
+    "github": "https://github.com/achyutganti",
+    "twitter": "https://twitter.com/achyutganti"
+  },
+  {
+    "name": "Seth Jones",
+    "position": "PhD Student",
+    "image": "sethjones.jpeg",
+    "email": "sethjones@oakland.edu",
+    "github": "https://github.com/sethjones",
+    "linkedin": "https://www.linkedin.com/in/sethjones-dtw"
+  },
+  {
+    "name": "Karthikeya Challa",
+    "position": "PhD Student",
+    "image": "karthikeya.png",
+    "github": "https://github.com/kc9192",
+    "email": "schalla@oakland.edu",
+    "linkedin": "https://www.linkedin.com/in/karthikeyachalla/"
+  },
+  {
+    "name": "Eslam Hussein",
+    "position": "PhD Collaborator",
+    "image": "eslam.jpg",
+    "website": "https://eslam-hussein.me/",
+    "email": "ehussein@vt.edu",
+    "github": "https://github.com/EslamAli86",
+    "twitter": "https://twitter.com/ehussein_01"
+  },
+  {
+    "name": "Jood Otey",
+    "position": "MS Student",
+    "image": "no_image.jpeg",
+    "email": "joodotey@oakland.edu",
+    "github": "https://github.com/wetey",
+    "linkedin": "https://www.linkedin.com/in/joodotey"
+  },
+  {
+    "name": "Souha Ben Hassine",
+    "position": "Research Intern",
+    "image": "souhe.jpeg",
+    "email": "benhassinesouha999@gmail.com",
+    "github": "https://github.com/Souha-BH",
+    "linkedin": "https://www.linkedin.com/in/souha-ben-hassine-58a3a017b/"
+  },
+  {
+    "name": "Yosra Abdessamed",
+    "position": "Research Intern",
+    "image": "yosra.jpg",
+    "email": "yosra.abdessamed@insat.ucar.tn",
+    "github": "https://github.com/Yosra1998",
+    "linkedin": "https://www.linkedin.com/in/yosra-abdessamed-10a066190/"
+  },
+  {
+    "name": "Matthew Hummel",
+    "position": "UG Student",
+    "image": "hummel.png",
+    "email": "matthewhummel@oakland.edu",
+    "github": "https://github.com/MatthewHummel",
+    "linkedin": "https://www.linkedin.com/in/matthew-hummel-9777a4195/"
+  },
+  {
+    "name": "Vineet Saravanan",
+    "position": "HS Research Intern",
+    "image": "vineet.jpg",
+    "email": "vineetsaravanan@gmail.com",
+    "github": "https://github.com/VSPuzzler"
+  }
+]
