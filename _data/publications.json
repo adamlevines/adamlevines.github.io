@@ -1,0 +1,98 @@
+[
+  {
+    "year": "2023",
+    "title": "What Are You Anxious About? Examining Subjects of Anxiety during the COVID-19 Pandemic",
+    "authors": "Lucia Chen, Steven Wilson, Daniela Negraia, Sophie Lohmann",
+    "conference": "In Proceedings of the 17th International AAAI Conference on Web and Social Media",
+    "conference_date": "Jun 2023",
+    "paper_link": "#"
+  },
+  {
+    "year": "2022",
+    "title": "SOS: Systematic Offensive Stereotyping Bias in Word Embeddings",
+    "authors": "Fatma Elsafoury, Steven Wilson, Katsigiannis Stamos, Naeem Ramzan",
+    "conference": "In Proceedings of the 29th International Conference on Computational Linguistics",
+    "conference_date": "Oct 2022",
+    "paper_link": "#"
+  },
+  {
+    "year": "2022",
+    "title": "Don’t Take it Personally: Analyzing Gender and Age Differences in Ratings of Online Humor",
+    "authors": "J.A.Meaney, Steven Wilson, Lius Chiruzzo, Walid Magdy",
+    "conference": "In Proceedings of the 13th International Conference on Social Informatics",
+    "conference_date": "Oct 2022",
+    "paper_link": "#"
+  },
+  {
+    "year": "2022",
+    "title": "A Comparative Study on Word Embeddings and Social NLP Tasks",
+    "authors": "Fatma Elsafoury, Steven Wilson, Naeem Ramzan",
+    "conference": "In Proceedings of the Tenth International Workshop on Natural Language Processing for Social Media",
+    "conference_date": "Jul 2022",
+    "paper_link": "/_pages/publishedpapers/comparativestudy.pdf"
+  },
+  {
+    "year": "2022",
+    "title": "Narrative Detection and Feature Analysis in Online Health Communities",
+    "authors": "Achyutarama R. Ganti, Steven Wilson, Zexin Ma, Xinyan Zhao and Rong Ma",
+    "conference": "WNU 2022",
+    "conference_date": "",
+    "paper_link": "/_pages/publishedpapers/WNU22_NarrativeDetection.pdf"
+  },
+  {
+    "year": "2022",
+    "title": "SemEval-2022 Task 6: iSarcasmEval, Intended Sarcasm Detection in English and Arabic",
+    "authors": "Ibrahim Abu Farah, Silviu Vlad Oprea, Steven Wilson, Walid Magdy",
+    "conference": "In Proceedings of the 16th International Workshop on Semantic Evaluation (SemEval-2022)",
+    "conference_date": "Jul 2022",
+    "paper_link": "/_pages/publishedpapers/semeval_task6.pdf"
+  },
+  {
+    "year": "2022",
+    "title": "Analyzing the Effects of Annotator Gender Across NLP Tasks",
+    "authors": "Laura Biester, Vanita Sharma, Ashkan Kazemi, Naihao Deng, Steven Wilson, Rada Mihalcea",
+    "conference": "In First Workshop on Perspectivist Approaches to NLP",
+    "conference_date": "Jun 2022",
+    "paper_link": "/_pages/publishedpapers/annotator_gender.pdf"
+  },
+  {
+    "year": "2022",
+    "title": "LIWC-UD: Classifying Online Slang Terms into LIWC Categories",
+    "authors": "Mohamed Bahgat, Steven Wilson, Walid Magdy",
+    "conference": "In Proceedings of the 14th International ACM Conference on Web Science",
+    "conference_date": "Jun 2022",
+    "paper_link": "https://dl.acm.org/doi/10.1145/3501247.3531572"
+  },
+  {
+    "year": "2022",
+    "title": "Should a Chatbot be Sarcastic? Understanding User Preferences Towards Sarcasm Generation",
+    "authors": "Silviu Vlad Oprea, Steven Wilson, Walid Magdy",
+    "conference": "In Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "conference_date": "May 2022",
+    "paper_link": "/_pages/publishedpapers/chatbot_sarcastic.pdf"
+  },
+  {
+    "year": "2021",
+    "title": "Chandler: An Explainable Sarcastic Response Generator",
+    "authors": "Silviu Vlad Oprea, Steven Wilson, Walid Magdy",
+    "conference": "In Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing: System Demonstrations",
+    "conference_date": "Nov 2021",
+    "paper_link": "/_pages/publishedpapers/chandler_demo.pdf"
+  },
+  {
+    "year": "2021",
+    "title": "SemEval 2021 Task 7: HaHackathon, Detecting and Rating Humor and Offense",
+    "authors": "J.A. Meaney, Steven Wilson, Luis Chiruzzo, Adam Lopez, Walid Magdy",
+    "conference": "In Proceedings of the 15th International Workshop on Semantic Evaluation (SemEval-2021)",
+    "conference_date": "Aug 2021",
+    "paper_link": "/_pages/publishedpapers/2021_semeval_task7.pdf"
+  },
+  {
+    "year": "2021",
+    "title": "Does BERT Pay Attention to Cyberbullying?",
+    "authors": "Fatma Elsafoury, Stamos Katsigiannis, Steven Wilson, Naeem Ramzan",
+    "conference": "In Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval",
+    "conference_date": "Jul 2021",
+    "paper_link": "/_pages/publishedpapers/bert_cyberbullying.pdf"
+  }
+]
