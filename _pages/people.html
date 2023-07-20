@@ -18,183 +18,32 @@ permalink: /People/
 
 </head>
 <body>
-    <div class = "banner">
+    <div class="banner">
         <h1>Meet The Team</h1>
-        </div>
+    </div>
     <div class="container">
-        <div class="card">
-            <div class="content">
-                <div class="imgBx">
-                    <img src="/_pages/images/steve.jpg" alt="">
-                </div>
-                <div class="contentBx">
-                    <a href="https://steverw.com" target="_blank"><h4 >Steven Wilson</h4></a>
-                    <h5>Assistant Professor</h5>
-                </div>
-                <div class="sci">
-                    <a href="mailto:stevenwilson@oakland.edu"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-                    <a href="https://github.com/steve-wilson" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-                    <a href="https://twitter.com/SteveWilsonNLP" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                </div>
-            </div>
-        </div>
-        <div class="card">
-            <div class="content">
-                <div class="imgBx">
-                    <img src="/_pages/images/achyut.png" alt="">
-                </div>
-                <div class="contentBx">
-                    <a href="https://achyutganti.com" target="_blank"><h4>Achyut Ganti</h4></a>
-                    <h5>PhD Student</h5>
-                </div>
-                <div class="sci">
-                    <a href="mailto:ganti@oakland.edu" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-                    <a href="https://github.com/achyutganti" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-                    <a href="https://twitter.com/achyutganti" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        {% for member in page.lab_members %}
+            <div class="card">
+                <div class="content">
+                    <div class="imgBx">
+                        <img src="/_pages/images/{{ member.image }}" alt="">
+                    </div>
+                    <div class="contentBx">
+                        <a href="{{ member.website | default: '#' }}" target="_blank"><h4>{{ member.name }}</h4></a>
+                        <h5>{{ member.position }}</h5>
+                    </div>
+                    <div class="sci">
+                        <a href="mailto:{{ member.email }}"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                        {% if member.github %}
+                            <a href="{{ member.github }}" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        {% endif %}
+                        {% if member.twitter %}
+                            <a href="{{ member.twitter }}" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        {% endif %}
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="card">
-            <div class="content">
-                <div class="imgBx">
-                    <img src="/_pages/images/sethjones.jpeg" alt="">
-                </div>
-                <div class="contentBx">
-                   <a href="https://github.com/sethjones" target="_blank" ><h4>Seth Jones</h4></a> 
-                    <h5>PhD Student</h5>
-                </div>
-                <div class="sci">
-                    <a href="mailto:sethjones@oakland.edu" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-                    <a href="https://github.com/sethjones" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-                    <a href="https://www.linkedin.com/in/sethjones-dtw" target="_blank" ><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-
-                </div>
-            </div>
-        </div>
-       
-       <div class="card">
-            <div class="content">
-                <div class="imgBx">
-                    <img src="/_pages/images/karthikeya.png" alt="">
-                </div>
-                <div class="contentBx">
-                    <a href="https://github.com/kc9192" target="_blank"><h4>Karthikeya Challa</h4></a>
-                    <h5>PhD Student</h5>
-                </div>
-                <div class="sci">
-                    <a href="mailto:schalla@oakland.edu" target="_blank" ><i class="fa fa-envelope" aria-hidden="true"></i></a>
-                    <a href="https://github.com/kc9192" target="_blank" ><i class="fa fa-github" aria-hidden="true"></i></a>
-                    <a href="https://www.linkedin.com/in/karthikeyachalla/" target="_blank" ><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                </div>
-            </div>
-        </div>
-
-       
-        <div class="card">
-            <div class="content">
-                <div class="imgBx">
-                    <img src="/_pages/images/eslam.jpg" alt="">
-                </div>
-                <div class="contentBx">
-                    <a href="https://eslam-hussein.me/" target="_blank"><h4>Eslam Hussein</h4></a>
-                    <h5>
-                        PhD Collaborator
-                    </h5>
-                </div>
-                <div class="sci">
-                    <a href="mailto:ehussein@vt.edu" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-                    <a href="https://github.com/EslamAli86" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-                    <a href="https://twitter.com/ehussein_01" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                </div>
-            </div>
-        </div>
-       
-       <div class="card">
-            <div class="content">
-                <div class="imgBx">
-                    <img src="/_pages/images/no_image.jpeg" alt="">
-                </div>
-                <div class="contentBx">
-                    <a href="https://github.com/wetey" target="_blank" ><h4>Jood Otey</h4></a>
-                    <h5>MS Student</h5>
-                </div>
-                <div class="sci">
-                    <a href="mailto:joodotey@oakland.edu" target="_blank" ><i class="fa fa-envelope" aria-hidden="true"></i></a>
-                    <a href="https://github.com/wetey" target="_blank" ><i class="fa fa-github" aria-hidden="true"></i></a>
-                    <a href="https://www.linkedin.com/in/joodotey" target="_blank" ><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                </div>
-            </div>
-        </div>
-       
-       
-       <div class="card">
-            <div class="content">
-                <div class="imgBx">
-                    <img src="/_pages/images/souhe.jpeg" alt="">
-                </div>
-                <div class="contentBx">
-                    <a href="https://github.com/Souha-BH" target="_blank" ><h4>Souha Ben Hassine</h4></a>
-                    <h5>Research Intern</h5>
-                </div>
-                <div class="sci">
-                    <a href="mailto:benhassinesouha999@gmail.com" target="_blank" ><i class="fa fa-envelope" aria-hidden="true"></i></a>
-                    <a href="https://github.com/Souha-BH" target="_blank" ><i class="fa fa-github" aria-hidden="true"></i></a>
-                    <a href="https://www.linkedin.com/in/souha-ben-hassine-58a3a017b/" target="_blank" ><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                </div>
-            </div>
-        </div>
-       
-       <div class="card">
-            <div class="content">
-                <div class="imgBx">
-                    <img src="/_pages/images/yosra.jpg" alt="">
-                </div>
-                <div class="contentBx">
-                    <a href="https://github.com/Yosra1998" target="_blank" ><h4>Yosra Abdessamed</h4></a>
-                    <h5>Research Intern</h5>
-                </div>
-                <div class="sci">
-                    <a href="mailto:yosra.abdessamed@insat.ucar.tn" target="_blank" ><i class="fa fa-envelope" aria-hidden="true"></i></a>
-                    <a href="https://github.com/Yosra1998" target="_blank" ><i class="fa fa-github" aria-hidden="true"></i></a>
-                    <a href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQE-3vDkshMJiwAAAYY8jHN463S9YwDdvPqa_JKD_DT_0iwk_hkjLVJbC2LAVPhKgxYa8vzAjonJmCsDkYpLpIf0Gkdk2pXiWNSk3tpmd0l7yWySLw9WAoev17_xqTlTvp1BIao=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fyosra-abdessamed-10a066190%2F" target="_blank" ><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                </div>
-            </div>
-        </div>
-       
-       <div class="card">
-            <div class="content">
-                <div class="imgBx">
-                    <img src="/_pages/images/hummel.png" alt="">
-                </div>
-                <div class="contentBx">
-                    <a href="https://github.com/MatthewHummel" target="_blank" ><h4>Matthew Hummel</h4></a>
-                    <h5>UG Student</h5>
-                </div>
-                <div class="sci">
-                    <a href="mailto:matthewhummel@oakland.edu" target="_blank" ><i class="fa fa-envelope" aria-hidden="true"></i></a>
-                    <a href="https://github.com/MatthewHummel" target="_blank" ><i class="fa fa-github" aria-hidden="true"></i></a>
-                    <a href="https://www.linkedin.com/in/matthew-hummel-9777a4195/" target="_blank" ><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                </div>
-            </div>
-        </div>
-       
-        <div class="card">
-            <div class="content">
-                <div class="imgBx">
-                    <img src="/_pages/images/vineet.jpg" alt="">
-                </div>
-                <div class="contentBx">
-                    <a href="https://github.com/VSPuzzler" target="_blank" ><h4>Vineet Saravanan</h4></a>
-                    <h5>HS Research Intern</h5>
-                </div>
-                <div class="sci">
-                    <a href="mailto:vineetsaravanan@gmail.com" target="_blank" ><i class="fa fa-envelope" aria-hidden="true"></i></a>
-                    <a href="https://github.com/VSPuzzler" target="_blank" ><i class="fa fa-github" aria-hidden="true"></i></a>
-                    
-                </div>
-            </div>
-        </div>
-       
+        {% endfor %}
     </div>
 </body>
 </html>
