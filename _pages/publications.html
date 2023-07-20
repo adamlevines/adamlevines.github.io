@@ -1,0 +1,29 @@
+---
+title:  "Publications"
+layout: splash
+permalink: /publications/
+years: [ 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015]
+nav: true
+sort-order: 0
+---
+
+
+<p><h1>Publications</h1></p>
+{% assign publications = site.data.publications %}
+
+{% for y in page.years %}
+<h2 class="year">{{y}}</h2>
+{% for publication in publications %}
+    <h2>{{ publication.year }}</h2>
+    <ul>
+        <li>
+            <b>{{ publication.title }}</b><br>
+            {{ publication.authors }}<br>
+            <font size="-1"><em>{{ publication.conference }} {{ publication.conference_date }}</em></font><br>
+            {% if publication.paper_link %}
+                <a href="{{ publication.paper_link }}" style="color: #7393B3;" target="_blank">[paper]</a>
+            {% endif %}
+        </li>
+    </ul>
+{% endfor %}
+{% endfor %}
