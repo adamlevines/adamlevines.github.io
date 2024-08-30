@@ -1,13 +1,15 @@
 # main links
 main:
+  - title: "About"
+    url: /About Us/
   - title: "People"
     url: /People/
   - title: "Publications"
     url: /publications/
   - title: "Projects"
     url: /Projects/
-  - title: "Contact"
-    url: /Contact/
+ # - title: "Contact"
+ #   url: /Contact/
   #- title: "About"
   #  url: test/_pages/404.md
 
